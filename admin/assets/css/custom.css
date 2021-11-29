@@ -1,0 +1,111 @@
+.border-style {
+  border: 1px solid #a8a8ae;
+  border-radius: 10px;
+}
+ 
+.btn-outline-sec {
+  color: #06A8CC;
+  background-color: #ffffff;
+  border-color: #06A8CC;
+}
+.btn-outline-sec:hover {
+  color: #fff;
+  background-color: #06A8CC;
+  border-color: #06A8CC;
+}
+.form-controler-sm {
+  height: 30px !important;
+  max-width: 100px !important;
+  background: #fff;
+  color: #000;
+  font-size: 13px;
+  border-radius: 4px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px rgb(186, 186, 186) solid;
+  padding-left: 5px;
+}#v_pills_table > table > tfoot > tr > td {
+  /* background: #c7e2fc; */
+  border: 1px solid;
+}
+#v_pills_table > table > tbody > tr:nth-child(2) > td {
+  text-align: center;
+  font-weight: bold;
+}
+#v_pills_table > table > tbody > tr:nth-child(1) > td:nth-child(1) {
+  font-weight: bold;
+}
+#v_pills_table > table > tbody > tr:nth-child(3) > td:nth-child(1) {
+  font-weight: bold;
+}
+#v_pills_table > table > tbody > tr:nth-child(4) > td:nth-child(1) {
+  font-weight: bold;
+}
+#v_pills_table > table > tbody > tr:nth-child(5) > td:nth-child(1) {
+  font-weight: bold;
+}
+#v_pills_table > table > tbody > tr:nth-child(6) > td:nth-child(1) {
+  font-weight: bold;
+}
+#v_pills_table > table > tbody > tr:nth-child(7) > td:nth-child(1) {
+  font-weight: bold;
+}
+#v_pills_table > table > tbody > tr:nth-child(8) > td:nth-child(1) {
+  font-weight: bold;
+}
+#v_pills_table > table > thead > tr > th {
+  text-align: center;
+}
+#v_pills_table > table > tbody > tr {
+  text-align: center;
+}
+#v_pills_table > table > tfoot > tr > td {
+  text-align: center;
+}
+#v_pills_table > table:nth-child(1) > tbody > tr:nth-child(2) > td {
+  text-align: center;
+}
+
+#v_pills_table
+  > table:nth-child(2)
+  > tbody
+  > tr:nth-child(1)
+  > td:nth-child(9) {
+  font-weight: bold;
+}
+#v_pills_table > table:nth-child(1) > tbody > tr > td:nth-child(1) {
+  text-align: left;
+}
+#v_pills_table > table:nth-child(1) > tfoot > tr > td:nth-child(1) {
+  text-align: left;
+  font-weight: bold;
+}
+#v_pills_table > table:nth-child(2) > tbody > tr > td {
+  font-weight: normal;
+}
+#v_pills_table
+  > table:nth-child(2)
+  > tbody
+  > tr:nth-child(2)
+  > td:nth-child(1) {
+  font-weight: bold;
+}
+
+#v_pills_table > table:nth-child(2) > tfoot > tr > td:nth-child(1) {
+  font-weight: bold;
+}
+
+.calcs.m2 > tbody > tr > td:nth-child(1) {
+  text-align: left;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000;
+    background: #fff;
+    border:1px solid #e3e6f0;
+}
+ 
+thead {
+    background: #fff;
+}

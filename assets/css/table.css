@@ -1,0 +1,249 @@
+.schedule-table thead {
+  background: #06a8cc;
+  padding: 1.5rem 0.5rem;
+  color: #fff;
+  text-align: center;
+}
+.ms-p {
+  margin-bottom: 0.4rem;
+}
+.schedule-table td {
+  /* min-width: 19%; */
+  vertical-align: middle;
+  text-align: center;
+}
+/* .schedule-table  td:hover {
+    background: #f2f2f2;
+    transition: background ease-in 1s;
+    border: 1px solid rgb(199, 199, 199);
+} */
+.schedule-text {
+  font-size: 0.8rem;
+  color: #6c9b71;
+}
+.nop {
+  padding: 0;
+  margin: 0;
+}
+.schedule-table th:nth-child(1) {
+  background: #323946;
+  width: 150px;
+  padding: 0;
+}
+
+.bgcolor {
+  background: #91c9d5;
+}
+.ms2 {
+  font-size: 0.6rem;
+}
+.schedule-table td:nth-child(1) {
+  width: 125px;
+  color: #fff;
+  background: #91c9d5;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.openc {
+  background: #e9f8f3;
+  border: 1px solid #6c9b71;
+  margin: 0px auto;
+}
+.opend {
+  background: #fad8d1;
+  border: 1px solid #d0856a;
+  margin: 0px auto;
+}
+.openb {
+  background: #cde9f8;
+  border: 1px solid #5191a8;
+  margin: 0px auto;
+}
+.openl {
+  background: #f4fad6;
+  border: 1px solid #cad888;
+  margin: 0px auto;
+}
+.join_btn {
+  background: #85ca9a;
+  color: #fff;
+  border: 1px solid #74bd8a;
+}
+.carder {
+  width: 11rem;
+  margin-bottom: 1rem;
+}
+.carders {
+  width: 11rem;
+  margin-bottom: 1rem;
+}
+.join_btn:hover {
+  background: #74bb89;
+  color: #fff;
+  border: 1px solid #74bd8a;
+}
+.cancel_btn {
+  background: #a2cde4;
+  color: #fff;
+  border: 1px solid #5285a0;
+}
+
+.cancel_btn:hover {
+  background: #88b3ca;
+  color: #fff;
+  border: 1px solid #5285a0;
+}
+.warn_btn {
+  background: #dbe99b;
+  color: #97a949;
+  border: 1px solid #cad888;
+}
+.warn_btn:hover {
+  background: #c1cf84;
+  color: #ffffff;
+  border: 1px solid #97a949;
+}
+.card-titles {
+  color: #6c9b71;
+}
+.card-titleg {
+  color: #1a5691;
+}
+.card-titlel {
+  color: #97a949;
+}
+.card-titled {
+  color: #d0856a;
+}
+.schedulew-text {
+  font-size: 0.8rem;
+  color: #6c9b71;
+}
+.schedules-text {
+  font-size: 0.8rem;
+  color: #d0856a;
+}
+.scheduleg-text {
+  font-size: 0.8rem;
+  color: #1a5691;
+}
+.schedulel-text {
+  font-size: 0.8rem;
+  color: #97a949;
+}
+.carders {
+  width: 10rem;
+  height: 6rem;
+}
+.cardersa {
+  width: 12rem;
+  min-height: 4rem;
+}
+.form-controler {
+  height: 40px !important;
+  background: #fff;
+  color: #000;
+  font-size: 13px;
+  border-radius: 4px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px rgb(186, 186, 186) solid;
+}
+.form-controler-sm {
+  height: 30px !important;
+  background: #fff;
+  color: #000;
+  font-size: 13px;
+  border-radius: 4px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px rgb(186, 186, 186) solid;
+  padding-left: 5px;
+}
+.table > :not(caption) > * > * {
+  padding: 1rem 0.5rem;
+  vertical-align: middle;
+}
+.wraper-time {
+  display: flex;
+  flex-direction: column;
+}
+.time {
+  background: #91c9d5;
+  min-height: 100%;
+  height: 90px;
+}
+.day {
+  background: #06a8cc;
+  height: 60px;
+  min-height: 100%;
+  height: 90px;
+}
+
+#v_pills_schedule
+  > div
+  > div
+  > div.table-responsive
+  > table
+  > thead
+  > tr
+  > th:nth-child(1) {
+  padding: 0;
+}
+.table > :not(caption) > * > * {
+  padding: 1rem 0.5rem;
+}
+@media only screen and (max-width: 768px) {
+  .carder {
+    width: 8rem;
+    height: 5.5rem;
+  }
+
+  .ms-title {
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+  }
+  .ms2-title {
+    font-size: 0.6rem;
+  }
+  .schedule-table td {
+    min-width: 9rem;
+    min-height: 6rem;
+  }
+
+  button:not(:disabled),
+  [type="button"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  [type="submit"]:not(:disabled) {
+    cursor: pointer;
+  }
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  .join_btn {
+    background: #85ca9a;
+    color: #fff;
+    border: 1px solid #74bd8a;
+  }
+  .mt-1 {
+    margin-top: 0.25rem !important;
+  }
+  .btns {
+    font-size: 0.4rem;
+  }
+  .ms-p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.3rem;
+  }
+  .schedule-table thead {
+    background: #06a8cc;
+    padding: 1.2rem 0.5rem;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
